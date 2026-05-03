@@ -36,9 +36,9 @@ src\
 
 ## Setup Instructions
 
+```bash
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/donovanakessler-prog/next-mysql-app
 cd next-mysql-app
 

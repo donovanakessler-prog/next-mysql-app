@@ -42,7 +42,7 @@ services → Business logic (queries)
 git clone https://github.com/donovanakessler-prog/next-mysql-app
 cd next-mysql-app
 
-### 2. Clone the repository
+### 2. Install dependencies
 
 npm install
 
@@ -54,7 +54,7 @@ DATABASE_USER=root
 DATABASE_PASSWORD=yourpassword
 DATABASE_NAME=sample_db
 
-### 4. Create database & seed data
+### 4. Create database & seed database
 
 npm run seed
 

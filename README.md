@@ -27,6 +27,7 @@ A simple Next.js application demonstrating **Server-Side Rendering (SSR)** with 
 
 ## Project Structure
 src/
+
 app → Pages (App Router) / Global CSS  
 lib → DB connection  
 services → Business logic (queries)

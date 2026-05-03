@@ -26,11 +26,10 @@ A simple Next.js application demonstrating **Server-Side Rendering (SSR)** with 
 ---
 
 ## Project Structure
-src\
-    app -> Pages (App Router) / Global CSS
-    lib/ → DB connection
-    services/ → Business logic (queries)
-
+src/
+app → Pages (App Router) / Global CSS  
+lib → DB connection  
+services → Business logic (queries)
 
 ---
 
@@ -44,13 +43,11 @@ cd next-mysql-app
 
 ### 2. Clone the repository
 
-```bash
 npm install
 
 ### 3. Setup environment variables
-Under your '.env', that is provided
+Under your '.env', that is provided to according to your localhost
 
-```env
 DATABASE_HOST=localhost
 DATABASE_USER=root
 DATABASE_PASSWORD=yourpassword
@@ -58,12 +55,11 @@ DATABASE_NAME=sample_db
 
 ### 4. Create database & seed data
 
-```bash
 npm run seed
 
 ### 5. Start the development server
 
-```bash
+
 npm run dev
 
 ### 6. Open in browser
